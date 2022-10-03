@@ -7,6 +7,7 @@
         </div>
     </section>
     <div class="more"></div>
+    
   </div>
    
 </template>

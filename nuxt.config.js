@@ -28,6 +28,14 @@ export default {
         href: 'https://use.typekit.net/sfm3pir.css',
       },
     ],
+
+    script: [
+      {
+        type: 'text/javascript',
+        src: '/js.js',
+        body: true,
+      },
+    ],
   },
   /*
    ** Customize the progress bar color
