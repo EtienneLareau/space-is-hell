@@ -65,6 +65,6 @@
     background: url('~assets/images/spaceshipgiant.webp') no-repeat center center;
     background-size: cover;
     width: 100%;
-    padding-top: 300px;
+    padding-top: 200px;
 }
 </style>

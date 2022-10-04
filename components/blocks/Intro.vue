@@ -1,7 +1,9 @@
 <template>
     <div class="back-img">
         <div class="fade">
+          <img src="~assets/images/city.jpg" alt="">
             <div class="flexing-center">
+             
                 <p>
                     Space is vast, dark, and not your friend. Gamma rays and
                     neutrino bursts erupt from dying stars to cook you alive,
@@ -24,10 +26,34 @@
 </template>
 
 <style scoped>
+  img {
+    width:100%;
+    height:auto;
+    margin-bottom:30px;
+    display:none;
+  }
 .back-img {
     background: url('~assets/images/city.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
-    padding-top: 900px;
+    padding-top: 200px;
+}
+
+
+@media only screen and (max-width: 650px) {
+  img {
+    display: block;
+  }
+  .back-img {
+    /* background: none; */
+    /* background-size: cover; */
+    width: 100%;
+    padding-top: 0px;
+}
+
+.fade {
+  background: rgba(0, 0, 0, 0.852);
+
+}
 }
 </style>

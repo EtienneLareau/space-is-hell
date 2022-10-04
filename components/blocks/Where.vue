@@ -44,6 +44,6 @@
     background: url('~assets/images/city2.webp') no-repeat center center;
     background-size: cover;
     width: 100%;
-    padding-top: 600px;
+    padding-top: 200px;
 }
 </style>

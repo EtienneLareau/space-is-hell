@@ -112,7 +112,7 @@
                 </div>
             </div>
         </div>
-        vail
+        
     </div>
 </template>
 
@@ -174,5 +174,34 @@ p {
     border-style: solid;
     border-color: rgb(46, 46, 46);
     padding: 10px 12px;
+}
+
+@media only screen and (max-width: 620px) {
+
+
+h3 {
+    font-weight: 400;
+    padding-top: 1rem;
+    font-size: 1.15rem;
+}
+
+.grid-guns-a {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.grid-guns-info {
+    grid-template-columns: 1fr;
+}
+
+
+.card {
+    background-color: #000;
+    padding: 5px 5px;
+}
+
 }
 </style>
