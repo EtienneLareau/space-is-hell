@@ -1,7 +1,7 @@
 <template>
     <div class="back-img">
         <div class="fade">
-          <img src="~assets/images/city.jpg" alt="">
+          <img src="~assets/images/planetship.webp" alt="">
             <div class="flexing-center">
              
                 <p>
@@ -33,10 +33,10 @@
     display:none;
   }
 .back-img {
-    background: url('~assets/images/city.jpg') no-repeat center center;
+    background: url('~assets/images/planetship.webp') no-repeat center center;
     background-size: cover;
     width: 100%;
-    padding-top: 200px;
+    padding-top: 600px;
 }
 
 

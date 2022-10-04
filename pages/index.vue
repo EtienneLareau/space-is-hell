@@ -1,22 +1,21 @@
 <template>
-  <div>
-    <section>
-        <div>
-            <h1>SPACE IS HELL</h1>
-            <h2 class="centre">A HARD LIFE AMONGST THE STARS</h2>
+    <div>
+        <section>
+            <div>
+                <h1>SPACE IS HELL</h1>
+                <h2 class="centre">A HARD LIFE AMONGST THE STARS</h2>
+            </div>
+        </section>
+        <article>
+            <Intro />
+            <Where />
+            <Frontier />
+        </article>
+        <div class="more">
+            <div class="more-star"></div>
+            <GunsNow />
         </div>
-    </section>
-    <article>
-      <Intro />
-      <Where />
-      <Frontier />
-    </article>
-    <div class="more">
-      <GunsNow />
     </div>
-    
-  </div>
-   
 </template>
 
 <script>
@@ -36,7 +35,7 @@ section {
 }
 
 .more {
-  width: 100%;
+    width: 100%;
     height: 100%;
     /* min-height: 100vh; */
     display: flex;
@@ -44,7 +43,8 @@ section {
     align-items: center;
     background: url('~assets/images/starfield.jpg') no-repeat top center;
     background-size: cover;
-    padding-top:100px;
+    background-attachment: fixed;
+    
 }
 
 h1 {
@@ -68,5 +68,4 @@ h2 {
     font-weight: 200;
     padding: 0 25px;
 }
-
 </style>

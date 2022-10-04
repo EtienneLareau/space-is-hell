@@ -153,6 +153,7 @@ p {
     gap: 2rem;
     width: 90%;
     margin: 0 auto;
+    padding-top:150px;
 }
 
 .grid-guns-info {
@@ -180,14 +181,24 @@ p {
 
 
 h3 {
-    font-weight: 400;
+    font-weight: 500;
     padding-top: 1rem;
     font-size: 1.15rem;
+    padding-left:12px;
+}
+p {
+    line-height: 1.5;
+    padding: 20px 12px;
+    font-size: 0.95rem;
+}
+span {
+  font-size: 0.95rem;
+  padding-bottom:12px;
 }
 
 .grid-guns-a {
     grid-template-columns: 1fr;
-    gap: 1.2rem;
+    gap: 2rem;
     width: 95%;
     margin: 0 auto;
 }

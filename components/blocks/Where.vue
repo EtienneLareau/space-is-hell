@@ -3,6 +3,7 @@
 <template>
     <div class="back-img">
         <div class="fade">
+          <img src="~assets/images/city2.webp" alt="">
             <div class="flexing-center">
                 <p>
                     The Frontier begins on the leading edge of the Outer Veil,
@@ -40,10 +41,34 @@
 </template>
 
 <style scoped>
+  img {
+    width:100%;
+    height:auto;
+    margin-bottom:30px;
+    display:none;
+  }
 .back-img {
-    background: url('~assets/images/city2.webp') no-repeat center center;
+    background: url('~assets/images/city2.webp') no-repeat bottom center;
     background-size: cover;
     width: 100%;
-    padding-top: 200px;
+    padding-top: 500px;
+}
+
+
+@media only screen and (max-width: 650px) {
+  img {
+    display: block;
+  }
+  .back-img {
+    /* background: none; */
+    /* background-size: cover; */
+    width: 100%;
+    padding-top: 0px;
+}
+
+.fade {
+  background: rgba(0, 0, 0, 0.852);
+
+}
 }
 </style>
