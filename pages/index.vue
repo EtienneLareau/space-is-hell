@@ -42,7 +42,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('~assets/images/planetship.webp') no-repeat top center;
+    background: url('~assets/images/starfield.jpg') no-repeat top center;
     background-size: cover;
     padding-top:100px;
 }
