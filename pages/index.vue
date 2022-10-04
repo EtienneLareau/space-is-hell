@@ -6,7 +6,9 @@
             <h2 class="centre">A HARD LIFE AMONGST THE STARS</h2>
         </div>
     </section>
-    <div class="more"></div>
+    <div class="more">
+      <GunsNow />
+    </div>
     
   </div>
    
