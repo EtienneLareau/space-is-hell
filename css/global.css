@@ -60,8 +60,38 @@ h4,
 h5 h6,
 p, * {
   font-family: montserrat, sans-serif;
-
-  font-weight: 300;
-
+  font-weight: 400;
   font-style: normal;
+  color:#fff;
+}
+
+.fade {
+  background: rgba(0, 0, 0, 0.323);
+
+}
+
+.flexing-center  {
+  min-height: 100px;
+  width:80%;
+  margin: 0 auto;
+  padding: 50px 25px 10px;
+}
+
+
+.flexing-center h2 {
+  font-size: 1.8rem;
+
+  line-height:1.6;
+  margin-bottom:40px;
+  text-shadow: 3px 3px  #53746b;
+  font-family: tachyon, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.flexing-center p {
+  font-size: 1.4rem;
+  line-height:1.6;
+  margin-bottom:40px;
 }

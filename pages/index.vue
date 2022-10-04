@@ -6,6 +6,11 @@
             <h2 class="centre">A HARD LIFE AMONGST THE STARS</h2>
         </div>
     </section>
+    <article>
+      <Intro />
+      <Where />
+      <Frontier />
+    </article>
     <div class="more">
       <GunsNow />
     </div>
@@ -32,13 +37,14 @@ section {
 
 .more {
   width: 100%;
-    height: 100vh;
-    min-height: 100vh;
+    height: 100%;
+    /* min-height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     background: url('~assets/images/planetship.webp') no-repeat top center;
     background-size: cover;
+    padding-top:100px;
 }
 
 h1 {
