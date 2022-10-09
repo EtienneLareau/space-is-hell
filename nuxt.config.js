@@ -20,6 +20,7 @@ export default {
         name: 'description',
         content: 'There are other worlds like this one.',
       },
+      { name: 'theme-color', content: '#000000' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
