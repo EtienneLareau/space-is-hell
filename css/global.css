@@ -73,6 +73,7 @@ p, * {
 .flexing-center  {
   min-height: 100px;
   width:80%;
+  max-width:1150px;
   margin: 0 auto;
   padding: 90px 25px 40px;
 }

@@ -152,6 +152,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     width: 90%;
+    max-width:1050px;
     margin: 0 auto;
     padding-top:150px;
 }
